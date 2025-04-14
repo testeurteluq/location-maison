@@ -8,5 +8,9 @@ $listePersonne = array(
 );
 
 foreach($listePersonne as $personne){
+    direBonjour($personne);
+}
+
+function direBonjour(string $personne){
     echo 'Bonjour '.$personne; 
 }
